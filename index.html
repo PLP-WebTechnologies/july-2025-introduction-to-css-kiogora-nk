@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Welcome to My Styled Page</h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="intro-section">
+            <h2>About This Project</h2>
+            <p>This page demonstrates fundamental CSS styling principles including the Box Model, typography, and layout techniques.</p>
+            <button class="btn">Learn More</button>
+        </section>
+
+        <section class="card-container">
+            <article class="card">
+                <h3>Box Model</h3>
+                <p>The CSS Box Model describes the rectangular boxes generated for elements and consists of content, padding, border, and margin.</p>
+            </article>
+            
+            <article class="card">
+                <h3>Typography</h3>
+                <p>CSS provides numerous properties to style text including font-family, font-size, color, line-height, and text-align.</p>
+            </article>
+            
+            <article class="card">
+                <h3>Layout</h3>
+                <p>Understanding display properties and positioning is key to creating effective page layouts in CSS.</p>
+            </article>
+        </section>
+
+        <section class="box-model-demo">
+            <div class="box outer-box">
+                <p>Margin (40px)</p>
+                <div class="box middle-box">
+                    <p>Border (5px solid)</p>
+                    <div class="box inner-box">
+                        <p>Padding (20px)</p>
+                        <div class="content-box">
+                            <p>Content</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; kiogo CSS Styling Assignment. All rights reserved.</p>
+    </footer>
+</body>
+</html>
